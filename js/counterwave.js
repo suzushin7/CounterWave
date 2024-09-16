@@ -1,5 +1,5 @@
 // Fetch the counter data from the server
-fetch('../php/counterwave.php')
+fetch('php/counterwave.php')
   .then(response => response.json())
   .then(data => {
     // Get the total views and start date
