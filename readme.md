@@ -20,7 +20,7 @@ To actually use it, you must place the necessary files on the server running PHP
 
 ## How to use
 
-1. Save `counterwave.php` / `counterwave.js` / `counterwave.css` in a suitable location.
+1. Save `counter-wave.php` / `counter-wave.js` / `counter-wave.css` in a suitable location.
 2. Add the following HTML to the location of the HTML page where you want to display the access counter.
 
 ```html
@@ -34,17 +34,17 @@ To actually use it, you must place the necessary files on the server running PHP
 
 3. Load CSS and JS.
 
-Load `counterwave.js` just before the `/body` tag.
+Load `counter-wave.js` just before the `/body` tag.
 
 ```html
-<link rel="stylesheet" href="css/counterwave.css">
+<link rel="stylesheet" href="css/counter-wave.css">
 ```
 
 ```html
-<script type="text/javascript" src="js/counterwave.js"></script>
+<script type="text/javascript" src="js/counter-wave.js"></script>
 ```
 
-4. Edit your IP address in the excluded IP address list at the top of `counterwave.php` and save.
+4. Edit your IP address in the excluded IP address list at the top of `counter-wave.php` and save.
 
 ```php
 // List of IP addresses to exclude from the count
