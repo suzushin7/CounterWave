@@ -1,5 +1,3 @@
-// counter.js
-
 // Fetch the counter data from the server
 fetch('../php/counterwave.php')
   .then(response => response.json())
