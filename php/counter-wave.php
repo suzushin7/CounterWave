@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set('Asia/Tokyo');
 
 // List of IP addresses to exclude from the count
 $exclude_ips = array(

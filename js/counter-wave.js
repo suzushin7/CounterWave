@@ -19,7 +19,12 @@ fetch('php/counter-wave.php')
       // Get the date string
       const date = new Date();
       date.setDate(date.getDate() - i);
-      const dateString = date.toISOString().slice(0, 10);
+      const dateString = date.toLocaleDateString('ja-JP', {
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        timeZone: 'Asia/Tokyo'
+      }).replace(/\//g, '-');
 
       // Get the views for the date
       const views = dailyData[dateString] || 0;
