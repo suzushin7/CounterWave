@@ -16,7 +16,7 @@ To actually use it, you must place the necessary files on the server running PHP
 
 ## Screenshot
 
-<img src="screenshot/main.jpg" alt="CounterWave" width="1024" height="506">
+<img src="screenshot/main.png" alt="CounterWave" width="1024" height="506">
 
 ## How to use
 
