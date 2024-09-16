@@ -1,6 +1,7 @@
 # CounterWave
 
 **CounterWave** is a simple access counter that developed by PHP and JavaScript.
+
 Displays PV for the entire period and the past 30 days.
 
 ## Features
@@ -28,6 +29,7 @@ To actually use it, you must place the necessary files on the server running PHP
 ```
 
 3. Load CSS and JS.
+
 Load `counterwave.js` just before the `/body` tag.
 
 ```html
