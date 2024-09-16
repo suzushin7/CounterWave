@@ -1,4 +1,4 @@
-# CounterWave
+# CounterWave: Simple Access Counter
 
 **CounterWave** is a simple access counter that developed by PHP and JavaScript.
 
