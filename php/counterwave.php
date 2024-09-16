@@ -14,7 +14,7 @@ if (in_array($_SERVER['REMOTE_ADDR'], $exclude_ips)) {
   } else {
     // Return initial data if the file does not exist
     $data = array(
-      'start_date' => date('Y-m-d'), // カウント開始日を設定
+      'start_date' => date('Y-m-d'),
       'total' => 0,
       'daily' => array()
     );
@@ -40,7 +40,7 @@ if (flock($fp, LOCK_EX)) {
   } else {
     // Initialize the data
     $data = array(
-      'start_date' => date('Y-m-d'), // カウント開始日を設定
+      'start_date' => date('Y-m-d'),
       'total' => 0,
       'daily' => array()
     );
@@ -77,7 +77,7 @@ if (flock($fp, LOCK_EX)) {
 } else {
   // Return an error if the file could not be locked
   header('HTTP/1.1 500 Internal Server Error');
-  echo json_encode(array('error' => 'ファイルのロックに失敗しました。'));
+  echo json_encode(array('error' => 'Failed to lock file.'));
   fclose($fp);
   exit;
 }
