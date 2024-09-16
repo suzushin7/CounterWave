@@ -24,7 +24,7 @@ To actually use it, you must place the necessary files on the server running PHP
 2. Add the following HTML to the location of the HTML page where you want to display the access counter.
 
 ```html
-<div class="counterwave">
+<div class="counter-wave">
   <p>CounterWave</p>
   <p id="totalViews">Total:</p>
   <ul id="dailyViews"></ul>
