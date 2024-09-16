@@ -42,6 +42,13 @@ Load `counterwave.js` just before the `/body` tag.
 
 4. Edit your IP address in the excluded IP address list at the top of `counterwave.php` and save.
 
+```php
+// List of IP addresses to exclude from the count
+$exclude_ips = array(
+  '1.2.3.4',
+);
+```
+
 ## License
 
 Distributed under the MIT License.
