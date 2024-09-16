@@ -2,7 +2,7 @@
 
 // List of IP addresses to exclude from the count
 $exclude_ips = array(
-  '**.**.**.**',
+  '1.2.3.4',
 );
 
 // Check if the IP address is in the exclude list
