@@ -1,0 +1,73 @@
+.counterwave {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  border-top: 5px solid #3498db;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 40px 0;
+}
+
+.counterwave p {
+  margin: 0 0 10px;
+  text-align: center;
+}
+
+.counterwave p:first-child {
+  font-size: 28px;
+  font-weight: bold;
+  color: #3498db;
+  margin-bottom: 20px;
+}
+
+.counterwave #totalViews {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+}
+
+.counterwave #startDate {
+  font-size: 14px;
+  color: #888;
+  text-align: right;
+  margin-top: 20px;
+}
+
+.counterwave ul#dailyViews {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+  max-height: 300px;
+  overflow-y: auto;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.counterwave ul#dailyViews li {
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #444;
+}
+
+.counterwave ul#dailyViews li:last-child {
+  border-bottom: none;
+}
+
+.counterwave ul#dailyViews li:nth-child(odd) {
+  background-color: #fafafa;
+}
+
+.counterwave ul#dailyViews li:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.counterwave ul#dailyViews li span.date {
+  font-weight: bold;
+  color: #3498db;
+}
+
+.counterwave ul#dailyViews li span.pv {
+  color: #777;
+}
