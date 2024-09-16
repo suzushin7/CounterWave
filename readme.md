@@ -14,6 +14,10 @@ The main features are as follows.
 
 To actually use it, you must place the necessary files on the server running PHP.
 
+## Screenshot
+
+<img src="screenshot/main.jpg" alt="CounterWave" width="1024" height="506">
+
 ## How to use
 
 1. Save `counterwave.php` / `counterwave.js` / `counterwave.css` in a suitable location.
