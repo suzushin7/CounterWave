@@ -44,7 +44,7 @@ Distributed under the MIT License.
 
 ## Author
 
-Name: Shingo Suzuki
-Mail: suzushinlab@gmail.com
-Twitter: https://twitter.com/suzushin7
-GitHub: https://github.com/suzushin7
+- Name: Shingo Suzuki
+- Mail: suzushinlab@gmail.com
+- Twitter: https://twitter.com/suzushin7
+- GitHub: https://github.com/suzushin7
