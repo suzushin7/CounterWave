@@ -40,6 +40,8 @@ Load `counterwave.js` just before the `/body` tag.
 <script type="text/javascript" src="js/counterwave.js"></script>
 ```
 
+4. Edit your IP address in the excluded IP address list at the top of `counterwave.php` and save.
+
 ## License
 
 Distributed under the MIT License.
