@@ -1,4 +1,4 @@
-fetch('/php/counter-wave.php')
+fetch('php/counter-wave.php')
   .then(response => response.json())
   .then(data => {
     const totalViews = data.total;
@@ -48,8 +48,8 @@ fetch('/php/counter-wave.php')
       graphSpan.className = 'graph';
 
       // Set the scale of the graph
-      const scaledPV = Math.round((views / maxPV) * 20); // 5%単位で20段階
-      graphSpan.textContent = '*'.repeat(scaledPV); // 「*」を繰り返して表示
+      const scaledPV = Math.round((views / maxPV) * 20);
+      graphSpan.textContent = '*'.repeat(scaledPV);
 
       // Display PV
       const pvSpan = document.createElement('span');
