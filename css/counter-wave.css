@@ -68,6 +68,15 @@
   color: #3498db;
 }
 
+.counter-wave ul#dailyViews li span.graph {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555555;
+  text-align: left;
+  width: 50%;
+  margin: 0 10px;
+}
+
 .counter-wave ul#dailyViews li span.pv {
   color: #777;
 }
